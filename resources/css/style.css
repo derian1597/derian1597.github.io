@@ -1,0 +1,6 @@
+/* Tailwind directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* WHEN CHANGING THIS CSS RUN "npx tailwindcss -i ./resources/css/style.css -o ./global/css/style.css --watch" */
