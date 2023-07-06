@@ -578,6 +578,19 @@ video {
   height: fit-content;
 }
 
+.h-9{
+  height: 2.25rem;
+}
+
+.h-60{
+  height: 15rem;
+}
+
+.min-h-fit{
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+}
+
 .w-5{
   width: 1.25rem;
 }
@@ -597,6 +610,10 @@ video {
 
 .grid-rows-5{
   grid-template-rows: repeat(5, minmax(0, 1fr));
+}
+
+.justify-end{
+  justify-content: flex-end;
 }
 
 .justify-center{
@@ -658,6 +675,10 @@ video {
   padding-left: 1.25rem;
 }
 
+.pt-20{
+  padding-top: 5rem;
+}
+
 .text-left{
   text-align: left;
 }
@@ -673,6 +694,16 @@ video {
 .text-5xl{
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-bold{
