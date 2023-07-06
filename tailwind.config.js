@@ -5,7 +5,11 @@ module.exports = {
     "./global/**/*.{html,js}",
     "./index.html",],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        agdasima: ['Agdasima']
+      }
+    },
   },
   plugins: [],
 }
