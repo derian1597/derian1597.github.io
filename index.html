@@ -12,40 +12,52 @@
     <script src="resources/js/script.js"></script>
 </head>
 
-<body class="font-agdasima">
-    <header><!-- EMPTY NAV --
-        <nav>
-            <ul class="border p-4 text-right">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav> -->
+<body id="body" class="font-agdasima min-h-screen">
+    <header>
     </header>
 
-    <section id="home" class=" mt-20 ml-6 flex w-fit text-5xl font-bold">
-        <h1 class="text-right">Hi</h1>
-        <h1 class="text-left">, I'm Derian Gutierrez</h1>
-    </section>
+    <section class="min-h-screen">
+        <section id="home" class=" mt-20 ml-6 flex w-fit text-5xl font-bold">
+            <h1 class="text-right">Hi</h1>
+            <h1 class="text-left">, I'm Derian Gutierrez</h1>
+        </section>
 
-    <section id="about" class=" flex justify-center pt-20 min-h-fit text-3xl">
-        <h2 class="">I'm a Web Developer</h2>
-    </section>
-
-    <section id="tags" class="flex justify-end mr-5">
-        <nav>
-            <ul class="">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <section id="info" class=" flex justify-center pt-20 min-h-fit text-3xl">
+            <h2 class="">I'm a Web Developer</h2>
+        </section>
         
+        <section id="tags" class="fixed right-10 mr-5">
+            <nav>
+                <ul class="">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </section>
+    </section>
+
+
+    
+
+    <section id="about" class="flex justify-end min-h-screen">
+        <p class="mr-32 mt-5 w-28 h-fit text-xl text-left whitespace-pre-line">Born in 1997 in Michoacán, Mexico.
+            I believe web design can be exciting and unique.
+            I plan on pursuing new experiences with experiments and thoughts.
+        </p>
     </section>
 
     <!-- <section id="projects">
+
+        Objective:
+        Motivated web developer with 6 months of experience in front-end and back-end web development. Seeking a dynamic
+        position as a Web Developer at XYZ Company, where I can utilize my technical expertise in HTML, CSS, JavaScript, and
+        React to contribute to the creation of innovative web applications. Eager to expand my skills and knowledge in web
+        development while collaborating with a talented team. Although my Japanese language proficiency is at a basic level, I
+        am enthusiastic about leveraging my growing knowledge to facilitate effective communication in a remote work
+        environment. I am excited to contribute to the success of the team and the company.
+
         <h2>Projects</h2>
         <div class="project">
             <h3>Project 1</h3>
@@ -62,20 +74,24 @@
         <!-- Repeat the above structure for each project you want to showcase -->
     </section>
 
-    <section id="contact" class="border border-yellow-500">
-        <h2>Contact Me</h2>
-        <p>Feel free to reach out to me via the following methods:</p>
-        <ul>
-            <li>Email: derian1597@gmail.com</li>
-            <li>Phone: +817014568076</li>
-            <!-- <li>LinkedIn: <a href="[Your LinkedIn Profile URL]">Your Name</a></li> -->
-            <li>GitHub: <a href="https://github.com/derian1597">derian1597</a></li>
-        </ul>
+    <section id="footer" class="justify-center row-end-auto">
+        <section id="contact" class="border border-yellow-500 h-fit">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out to me via the following methods:</p>
+            <ul>
+                <li>Email: derian1597@gmail.com</li>
+                <li>Phone: +817014568076</li>
+                <!-- <li>LinkedIn: <a href="[Your LinkedIn Profile URL]">Your Name</a></li> -->
+                <li>GitHub: <a href="https://github.com/derian1597">derian1597</a></li>
+            </ul>
+        </section>
+    
+        <footer class="border border-yellow-500 justify-end w-full">
+            <p>© 2023 Derian. All rights reserved.</p>
+        </footer>
     </section>
 
-    <footer class="border border-yellow-500">
-        <p>© 2023 Derian. All rights reserved.</p>
-    </footer>
+    
 
     <script src="resources/js/script.js"></script>
 </body>
