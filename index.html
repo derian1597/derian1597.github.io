@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Derian Gutierrez</title>
-    <link rel="icon" type="image/x-icon" href="resources\images\UnderCon_icon.svg">
+    <link rel="icon" type="image/x-icon" href="resources\images\UnderCon_icon.svg.png">
     <!-- main css -->
     <link rel="stylesheet" href="resources/css/style.css">
     <!-- tailwind css -->
@@ -18,39 +18,86 @@
     </header>
 
     <section class="min-h-screen">
-        <section id="home" class="pt-5 mt-5 ml-6 flex w-fit text-4xl sm:text-5xl font-bold">
+        <div id="home" class="pt-5 mt-5 ml-6 flex w-fit text-4xl sm:text-5xl font-bold">
             <h1 class="text-right">Hi</h1>
             <h1 class="text-left">, I'm Derian Gutierrez</h1>
-        </section>
+        </div>
 
-        <section id="info" class=" flex justify-center pt-20 min-h-fit sm:text-3xl text-2xl">
+        <div id="info" class=" flex justify-center pt-20 min-h-fit sm:text-3xl text-2xl">
             <h2 class="">I'm a Web Developer</h2>
-        </section>
+        </div>
         
-        <section id="tags" class="fixed right-10 mr-5">
+        <div id="tags" class="fixed right-10 mr-5">
             <nav>
                 <ul class="">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#footer">Contact</a></li>
                 </ul>
             </nav>
-        </section>
+        </div>
     </section>
 
-    <section id="about" class="flex justify-end min-h-screen">
+    <section id="about" class="flex justify-end min-h-screen bg-fixed" style="background-image: url('resources/images/UnderCon_icon.svg.png');">
+        <!--img class="scale-100" src="resources/images/UnderCon_icon.svg.png" alt="pic" /-->
         <p class="mr-32 mt-5 w-28 h-fit text-xl text-left whitespace-pre-line">Born in 1997 in Michoacán, Mexico.
             I believe web design can be exciting and unique.
             I plan on pursuing new experiences with experiments and thoughts.
         </p>
     </section>
 
-    <section id="projects" class="min-h-screen border border-red-500">
-        <section class="border border-orange-800">
-            <img src="https://commons.wikimedia.org/wiki/Category:Under_construction_icons" alt="under cunstruction">
+    <section id="projects-container" class="min-h-screen flex justify-center">
+        <section id="projects" class=" grid grid-cols-3 gap-4 content-evenly w-2/3 max-h-fit">
+            <div id="project1Cont" class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                <div id="project1" class="flex flex-col items-center pb-10">
+                    <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="resources/images/UnderCon_icon.svg.png" alt="pic" />
+                    <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-gray-900">Discord Clone</h5>
+                    <span class="text-center text-sm text-gray-500 dark:text-gray-400">Discord Clone made with Next.js, NextAuth.js, TailwindCSS, Typescript, Firebase, and more</span>
+                    <div class="flex mt-4 space-x-3 md:mt-6">
+                        <a href="#" class="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg">Click to go to site</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div id="project2Cont" class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                <div id="project3" class="flex flex-col items-center bg-10">
+                    <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="resources/images/UnderCon_icon.svg.png" alt="pic" />
+                    <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-gray-900">Project 2</h5>
+                    <span class="text-center text-sm text-gray-500 dark:text-gray-400">Project focusing on Typescript and React.js</span>
+                    <div class="flex mt-4 space-x-3 md:mt-6">
+                        <a href="#" class="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg">Click to go to site</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="project3Cont" class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                <div id="project3" class="flex flex-col items-center pb-10">
+                    <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="resources/images/UnderCon_icon.svg.png" alt="pic" />
+                    <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-gray-900">Project 3</h5>
+                    <span class="text-center text-sm text-gray-500 dark:text-gray-400">Website made with TailwindCSS and React</span>
+                    <div class="flex mt-4 space-x-3 md:mt-6">
+                        <a href="#" class="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg">Click to go to site</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Original Card w/ Color
+            <div id="project3Cont" class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div id="project3" class="flex flex-col items-center pb-10">
+                    <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="resources/images/UnderCon_icon.svg.png" alt="pic" />
+                    <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">Project 3</h5>
+                    <span class="text-sm text-gray-500 dark:text-gray-400">Website made with TailwindCSS and React</span>
+                    <div class="flex mt-4 space-x-3 md:mt-6">
+                        <a href="#" class="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:hover:bg-blue-600 dark:focus:ring-blue-800">Click to go to site</a>
+                    </div>
+                </div>
+            </div>
+            -->
+            
         </section>
     </section>
+    
 
     <!-- <section id="projects">
 
@@ -75,7 +122,7 @@
             <a href="project2-demo">Demo</a>
             <a href="project2-code">Code</a>
         </div>
-        <!-- Repeat the above structure for each project you want to showcase -->
+        <-- Repeat the above structure for each project you want to showcase -->
     </section>
 
     <section id="footer" class="justify-center row-end-auto">

@@ -3,14 +3,14 @@ color combos
 Dark [D]
 Light [L]
 
-D #000 (black)
-L #6bcfa9 (mint blue-green)
+D #000 (black) rgb(0,0,0)
+L #6bcfa9 (mint blue-green) rgb(107,207,169)
+
+D #000 (black) rgb()
+L #e1c9cb (strawberry milk) rgb(225,201,203)
 
 D #000 (black)
-L #e1c9cb (strawberry milk)
+L #818485 (gunmetal grey) rgb(129,132,133)
 
 D #000 (black)
-L #818485 (gunmetal grey)
-
-D #000 (black)
-L #65a3ba (soft light navy)
+L #65a3ba (soft light navy) rgb(101,163,186)
